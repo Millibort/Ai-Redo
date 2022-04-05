@@ -1,5 +1,14 @@
 #include <iostream>
 
+    int AddTo(int arr, int add) {
+        const int len = sizeof(arr) + 1;
+        int arr2[len];
+        for(int i = 0; i < len - 1; i++) {
+            arr2[i] = arr[i]
+        }
+        arr2[len - 1] = add
+    }
+
 class neuron {
     public:
         int ins;
@@ -43,11 +52,7 @@ class ai {
             if(chng > 100) {
                 std::cout << "Error: too much change";
             }
-            int test = 10;
-            int map[test];
-            for(int i = 0; i < sizeof(map); i++) {
-                map[i] = false;
-            }
+            
         }
 };
 
