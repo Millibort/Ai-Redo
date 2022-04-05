@@ -43,7 +43,8 @@ class ai {
             if(chng > 100) {
                 std::cout << "Error: too much change";
             }
-            int map[100];
+            int test = 10;
+            int map[test];
             for(int i = 0; i < sizeof(map); i++) {
                 map[i] = false;
             }
