@@ -1,12 +1,12 @@
 #include <iostream>
 
-    int AddTo(int arr, int add) {
+    int AddTo(void arr1, int add) {;
         const int len = sizeof(arr) + 1;
         int arr2[len];
         for(int i = 0; i < len - 1; i++) {
-            arr2[i] = arr[i]
+            arr2[i] = arr1[i];
         }
-        arr2[len - 1] = add
+        arr2[len - 1] = add;
     }
 
 class neuron {
