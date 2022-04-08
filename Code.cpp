@@ -1,13 +1,16 @@
 #include <iostream>
 
-    int AddTo(void arr1, int add) {;
-        const int len = sizeof(arr) + 1;
-        int arr2[len];
-        for(int i = 0; i < len - 1; i++) {
-            arr2[i] = arr1[i];
+class memory {
+    public:
+        int in;
+        int act;
+        int output;
+        memory(int input, int activate) {
+            int in = input;
+            int act = activate;
+
         }
-        arr2[len - 1] = add;
-    }
+}
 
 class neuron {
     public:
@@ -31,7 +34,7 @@ class ai {
         }
 
     public:
-        ai(int layers, int inputs, int hidden, int outputs, int change){
+        ai(int tests){
             ins = inputs;
             if(ins > 100) {
                 std::cout << "Error: too many inputs";
@@ -57,6 +60,6 @@ class ai {
 };
 
 int main() {
-    std::cout << "Hello World!";
+    int test = ai()
     return 0;
 }
